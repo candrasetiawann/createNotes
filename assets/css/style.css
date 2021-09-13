@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-family: Sans-Serif;
+}
+
+.container {
+    height: 1000px;
+    background: rgb(248,233,75);
+}
+
+.container-input {
+    margin-top: 20px;
+    background-color: rgb(137,119,232);
+    height: 310px;
+    border-radius: 5px;
+    width: 340px;
+    margin-left: 10px;
+    position: absolute;
+    box-shadow:
+    0 7.6px 9.8px rgba(0, 0, 0, 0.013),
+    0 13.4px 23.7px rgba(0, 0, 0, 0.018),
+    0 18.8px 48px rgba(0, 0, 0, 0.021),
+    0 26.5px 102.6px rgba(0, 0, 0, 0.024),
+    0 51px 305px rgba(0, 0, 0, 0.03);
+}
+
+/* title app */
+.title-app {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* input title */
+.title-field {
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: 1px solid #6d79f3;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Lexend Exa', sans-serif;
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+input:placeholder {
+    color: black;
+}
+
+/* textarea */
+.notes-field {
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid #6d79f3;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Lexend Exa',Sans-Serif;
+    margin-left: 22px;
+}
+
+/* button add */
+.button-add {
+    height: 40px;
+    width: 300px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 22px;
+    outline: none;
+    background-color: rgb(255,175,0);
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-family: 'Quicksand',Sans-Serif;
+}
+
+.button-add:hover {
+    background-color: #a2440b;
+}
+
+/* container-output */
+.container-output {
+    overflow: scroll;
+    position: absolute;
+    margin-top: 350px;
+    width: 340px;
+    height: 100vh;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:
+    0 7.6px 9.8px rgba(0, 0, 0, 0.013),
+    0 13.4px 23.7px rgba(0, 0, 0, 0.018),
+    0 18.8px 48px rgba(0, 0, 0, 0.021),
+    0 26.5px 102.6px rgba(0, 0, 0, 0.024),
+    0 51px 305px rgba(0, 0, 0, 0.03);
+    margin-bottom: 10px;
+}
+
+.notes-id {
+    color: rgb(85,86,86);
+    font-family: 'Quicksand',Sans-Serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.notes-title {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Lexend Exa',Sans-Serif;
+    color: rgb(85,86,86);
+    margin-left: 10px;
+}
+
+.list-notes {
+    overflow: scroll;
+    background-color: rgb(244,243,248);
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.text-notes {
+    display: block;
+    margin-top: 10px;
+    color: rgb(85,86,86);
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+/* button action */
+.button-action {
+    cursor: pointer;
+    margin-top: 65px;
+    color: rgb(69,71,71);
+    font-size: 18px;
+    font-family: 'Quicksand',Sans-Serif;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.btn-hapus {
+    background-color: rgb(231,47,80);
+}
+
+.btn-edit {
+    background-color: rgb(243,210,81);
+}
+
+.btn-edit:hover {
+    background-color: rgb(178,155,27);
+    color: white;
+}
+
+.btn-hapus:hover {
+    background-color: rgb(191,28,84);
+    color: white;
+}

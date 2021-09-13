@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="rgb(137,119,232)">
+    <meta property="og:description" content="createNotes App - Simple Notes">
+    <title>createNotes App</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+
+    <!--Quicksand-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+
+    <!--Lexend Exa-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <form action="" accept-charset="utf-8">
+                <div class="container-input">
+                    <h1 class="title-app">createNotes App</h1>
+                    <input class="title-field" type="text" min="1" id="text-field" placeholder="input your title notes" required />
+                    <textarea class="notes-field" id="textarea-field" rows="6" cols="34" placeholder="add your notes" required></textarea>
+                    <button id="btn-add" class="button-add" type="submit">add notes</button>
+                </div>
+            </form>
+        </header>
+        <div class="list">
+            <div id="notes" class="container-output">
+                <div class="list-notes">
+                    <span class="notes-id"></span>
+                    <span class="notes-title"></span>
+                    <span class="text-notes"></span>
+                    <button class="button-action btn-edit" type="button">Edit</button>
+                    <button class="button-action btn-hapus" type="button">Hapus</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
